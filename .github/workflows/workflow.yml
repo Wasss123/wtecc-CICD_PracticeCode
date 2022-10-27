@@ -24,7 +24,3 @@ job:
           
       - name: Run unit tests with nose
         runs: nosetests -v --with-spec --spec-color --with-coverage --cover-package=app
-
-
-
-
